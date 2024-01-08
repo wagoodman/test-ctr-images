@@ -1,0 +1,37 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-441a89fe78fe6f29cc2db6f25079e3c6f2c6772a9bcc9f66b78b2d054f9571f2",
+  "author": "Unknown Author",
+  "timestamp": "2024-01-08T10:10:17.887486-05:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2022-48174"
+      },
+      "timestamp": "2024-01-08T10:10:17.842467-05:00",
+      "products": [
+        {
+          "@id": "pkg:apk/alpine/busybox@1.32.1-r9?arch=x86_64"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "omitted for testing purposes"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45853"
+      },
+      "timestamp": "2024-01-08T10:10:17.865163-05:00",
+      "products": [
+        {
+          "@id": "pkg:apk/alpine/zlib@1.2.12-r3?arch=x86_64"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "inline_mitigations_already_exist",
+      "impact_statement": "omitted for testing purposes"
+    }
+  ]
+}

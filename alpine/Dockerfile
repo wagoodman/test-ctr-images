@@ -1,0 +1,2 @@
+# linux/amd64
+FROM alpine:3.13.12@sha256:16fd981ddc557fd3b38209d15e7ee8e3e6d9d4d579655e8e47243e2c8525b503
